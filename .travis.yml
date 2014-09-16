@@ -20,6 +20,7 @@ script:
   - PYTHONPATH=extplugins nosetests --where=tests
   - echo $Foo 
   
+  
 archive: true
 
 notifications:
