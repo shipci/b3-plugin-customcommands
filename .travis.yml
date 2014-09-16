@@ -19,6 +19,8 @@ install:
 script: 
   - PYTHONPATH=extplugins nosetests --where=tests
   - echo $Foo 
+  
 archive: true
+
 notifications:
   email: vidyac.raghav@gmail.com
