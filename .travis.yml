@@ -19,7 +19,7 @@ install:
 script: 
   - PYTHONPATH=extplugins nosetests --where=tests
   - echo $Foo 
-cache: true 
+#cache: true 
   
 archive: true
 
